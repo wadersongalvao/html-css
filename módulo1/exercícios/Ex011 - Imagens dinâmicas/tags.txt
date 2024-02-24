@@ -1,0 +1,20 @@
+<picture>
+
+OBS: a tag picture serve para englobar várias imagens dentro dela.
+
+OBS: a tag source media tem "min" e "max". Nesse exemplo, usamos a largura máxima (max-width: 1050px).
+
+OBS2: deve-se sempre começar de baixo para cima, do maior arquivo para o menor, como no exemplo abaixo.
+
+------
+
+<source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+<source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+<img src="#" alt="#">
+
+------
+
+OBS: o parâmetro (srcset="") não admite o uso do atalho crtl + espaço. É preciso digitar o local e o nome do arquivo, se atentando para a pasta.
+
+
+</picture

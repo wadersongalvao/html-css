@@ -1,0 +1,21 @@
+LISTAS ORDENADAS
+<or>...</or>
+
+OBS: na tag <or> o fechamento </or> é opcional a partir do HTML5.
+
+-Tipos:
+<ol type="1">...</ol>
+<ol type="A">...</ol>
+<ol type="a">...</ol>
+<ol type="I">...</ol>
+<ol type="i">...</ol>
+
+
+LISTAS NÃO ORDENADAS
+<ul>...</ul>
+
+-Tipos:
+
+<ul type="disc">...</ul>
+<ul type="circle">...</ul>
+<ul type="square">...</ul>
