@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         th {
@@ -37,6 +38,21 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(2N) { /*ou even (par em inglês)
+                                     se for ímpar será odd (ímpar em inglês) ou 2n-1*/
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
         }
     </style>
 </head>
